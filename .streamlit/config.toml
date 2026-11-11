@@ -1,0 +1,14 @@
+[theme]
+base = "light"
+primaryColor = "#2546F5"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F6FD"
+textColor = "#111827"
+font = "sans serif"
+
+[server]
+# Above the 5 MB app rule so oversized files reach the validation engine and are flagged there.
+maxUploadSize = 10
+
+[browser]
+gatherUsageStats = false
